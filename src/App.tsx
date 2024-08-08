@@ -1,9 +1,10 @@
-import './Badge.css';
-import './SmartCharacterLimit.css';
+import "./Badge.css";
+import "./SmartCharacterLimit.css";
 
-import MultiStepForm from './StepForm';
-import FormBuilder from './Form_Builder/FormBuilder';
-import SearchFilter from './Search_Filter/SearchFilter';
+import MultiStepForm from "./StepForm";
+import FormBuilder from "./Form_Builder/FormBuilder";
+import SearchFilter from "./Search_Filter/SearchFilter";
+import CountryInfo from "./Country_Info/CountryInfo";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MultiStepForm />
       <FormBuilder />
       <SearchFilter />
+      <CountryInfo />
     </>
   );
 }
